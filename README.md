@@ -4,6 +4,7 @@
 <h2> Processing: </h2>
 <ol type="1">
   <li> At first we Create a folder where we implement all code </li>
+  <li> Make some changes and set up Context api for provide state as a Global state  </li>
    
 </ol>  
 
