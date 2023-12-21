@@ -3,8 +3,10 @@
 
 <h2> Processing: </h2>
 <ol type="1">
-  <li> At first we Create a folder where we implement all code </li>
-  <li> Make some changes and set up Context api for provide state as a Global state  </li>
+  <li> At first we Create a folder where we implement all code. </li>
+  <li> Make some changes and set up Context api for provide state as a Global state. </li>
+  <li> Show all initial Users in out UI. </li>
+  <li> Add some style for users </li>
    
 </ol>  
 

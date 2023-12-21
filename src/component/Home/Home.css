@@ -1,0 +1,14 @@
+.article{
+    width: 30rem;
+    background-color: rgb(226, 218, 218);
+    border-radius: 0.5rem;
+    padding: 1rem;
+    margin: 1rem auto;
+}
+h1{ 
+    font-size: 1.8rem;
+}
+.name{
+    font-size: 2rem;
+    color: rgb(46, 2, 2);
+}
