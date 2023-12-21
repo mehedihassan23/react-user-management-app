@@ -1,4 +1,8 @@
-import React from 'react'
+import React, { createContext } from 'react'
+import './Home.css'
+
+// Create a context
+export const Context = createContext();
 
 const Home = () => {
   return (
