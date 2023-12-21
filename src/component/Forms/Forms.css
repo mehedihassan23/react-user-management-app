@@ -1,10 +1,19 @@
  .forms{
-    margin-bottom: 2rem;
+     margin: 1rem auto;
+     display: flex;
+     justify-content: center;
  }
+ 
  .inputDiv{
     margin-bottom: 1rem;
  }
+ .inputDiv div{
+    display: inline-block;
+    width: 6rem;
+    margin-right: 1rem;
+ }
  label{
+    font-weight: bolder; 
     font-size: 1.5rem;
     margin-right: 1rem;
     text-align: left;
@@ -15,13 +24,14 @@ input[type="text"]{
  }
 input[type="submit"]{
     height: 3rem;
-    width: 20rem;
+    width: 22rem;
     padding: 1rem 0;
     border: none;
     outline: 0;
     font-weight: bolder;
     cursor: pointer;
+    transition: 0.5s;
  }
 input[type="submit"]:hover{
-    background-color: rgb(230, 216, 216);
+    background-color: rgb(221, 213, 213);
 }

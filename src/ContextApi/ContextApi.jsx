@@ -4,8 +4,9 @@ import React, { createContext, useState } from 'react'
 export const  Context = createContext();
 
 const ContextApi = ({children}) => {
-    const [users, setUsers] = useState([{id:1, name: "Mehedi Hassan", institute: "Prime University", location: "Dhaka"}, {id: 2, name: "Jebunnesa jebin ", institute: "M Abdur Rahim Medical College", location: "Dinajpur"}, {id: 3, name: "Soma Akther", institute: "Bangabandhu Seikh Mujib Medical College", location: "Faridpur"}])
-
+    const initialState = [{id:1, name: "Bilen", institute: "University of Oxford", location: "England"}, {id: 2, name: "Adohi", institute: "Harvard University", location: "United States"}, {id: 3, name: "Aira", institute: "Cambrige University", location: "England"}]
+    
+    const [users, setUsers] = useState(initialState)
     const ContextValue = {users, setUsers}
     
   return (

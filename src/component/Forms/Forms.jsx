@@ -14,6 +14,7 @@ const Forms = () => {
             id,
             name: event.target.name.value,
             institute: event.target.institute.value,
+            location: event.target.location.value
         }
         setUsers([...users, newUser])
         event.target.reset()
@@ -23,12 +24,17 @@ const Forms = () => {
     <div className='forms'>
       <form className='form' onSubmit={handleSubmit} >
         <div className="inputDiv">
-             <label htmlFor="name">Name:</label>
+             <div><label htmlFor="name">Name:</label></div>
              <input type="text" name='name' placeholder='Enter your Name' />
         </div>
         <div className="inputDiv">
-            <label htmlFor="institute">Institute:</label>
+            <div> <label htmlFor="institute">Institute:</label></div>
+           
             <input type="text" name='institute' placeholder='Enter your Institute' />
+        </div>
+        <div className="inputDiv">
+            <div><label htmlFor="location">Location:</label></div>
+            <input type="text" name='location' placeholder='Enter your location' />
         </div>
         <input type="submit" value="Add User" />
       </form>
