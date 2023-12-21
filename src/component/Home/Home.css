@@ -3,10 +3,12 @@
     background-color: rgb(226, 218, 218);
     border-radius: 0.5rem;
     padding: 1rem;
-    margin: 1rem auto;
+    margin-bottom: 1rem;
+    
 }
 h1{ 
     font-size: 1.8rem;
+    margin-bottom: 1rem;
 }
 .name{
     font-size: 2rem;

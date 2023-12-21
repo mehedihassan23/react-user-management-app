@@ -1,0 +1,27 @@
+ .forms{
+    margin-bottom: 2rem;
+ }
+ .inputDiv{
+    margin-bottom: 1rem;
+ }
+ label{
+    font-size: 1.5rem;
+    margin-right: 1rem;
+    text-align: left;
+ }
+input[type="text"]{
+    height: 2rem;
+    width: 15rem;
+ }
+input[type="submit"]{
+    height: 3rem;
+    width: 20rem;
+    padding: 1rem 0;
+    border: none;
+    outline: 0;
+    font-weight: bolder;
+    cursor: pointer;
+ }
+input[type="submit"]:hover{
+    background-color: rgb(230, 216, 216);
+}
